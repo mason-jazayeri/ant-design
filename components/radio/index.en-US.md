@@ -60,6 +60,7 @@ Radio group can wrap a group of `Radio`。
 | size | The size of radio button style | `large` \| `middle` \| `small` | - |  |
 | value | Used for setting the currently selected value | any | - |  |
 | onChange | The callback function that is triggered when the state changes | function(e:Event) | - |  |
+| required | Specifies whether the Radio option is required | `boolean` | `false` | 4.4.0 |
 
 ### CheckboxOptionType
 
@@ -71,8 +72,7 @@ Radio group can wrap a group of `Radio`。
 | disabled | Specifies whether the Radio option is disabled | `boolean` | `false` | 4.4.0 |
 | title | Adds the Title attribute value | `string` | - | 4.4.0 |
 | id | Adds the Radio Id attribute value | `string` | - | 4.4.0 |
-| onChange | Triggered when the value of the Radio Group changes | `(e: CheckboxChangeEvent) => void;` | - | 4.4.0 |
-| required | Specifies whether the Radio option is required | `boolean` | `false` | 4.4.0 |
+
 
 ## Methods
 
